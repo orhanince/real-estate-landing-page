@@ -1,0 +1,11 @@
+@import "./../utils/settings";
+.about {
+  padding: 60px 0px 60px 0px;
+  &__top {
+    display: flex;
+    padding: 0px 0px 40px 0px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

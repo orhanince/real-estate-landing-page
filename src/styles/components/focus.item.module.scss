@@ -1,0 +1,21 @@
+@import "./../utils/mixins";
+@import "./../utils/settings";
+.card {
+  width: 100%;
+  @include border-radius(0px);
+  margin: 10px 0px;
+  border: none !important;
+  background: $background-green !important;
+  font-family: $poppins-font;
+  &__img {
+    display: block !important;
+    width: 36px !important;
+    @include border-radius(0px);
+  };
+  &__title {
+    font-weight: 700 !important;
+  };
+  &__text {
+    color: $text-gray;
+  }
+}

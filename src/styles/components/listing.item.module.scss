@@ -1,0 +1,30 @@
+@import "./../utils/mixins";
+@import "./../utils/settings";
+.card {
+  width: 100%;
+  @include border-radius(0px);
+  margin: 10px 0px;
+  background: $white;
+  padding: 16px;
+  &__img {
+    @include border-radius(0px);
+  };
+  &__title {};
+  &__text {
+    display: flex;
+    flex-direction: column;
+  };
+  &__price {
+    color: $primary-color;
+    font-weight: bold;
+  };
+  &__location {};
+  &__area {
+    background: $ligth-bg-color;
+    margin-left: 20px;
+    span {
+      color: #000000;
+      font-size: 12px;
+    }
+  };
+}

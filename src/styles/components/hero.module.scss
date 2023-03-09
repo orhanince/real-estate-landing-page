@@ -1,0 +1,14 @@
+@import "./../utils/settings";
+.hero {
+  display: block;
+  background: url("../../../public/images/hero-bg.png") no-repeat center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  z-index: 0;
+  top: -60px;
+  height: 100vh;
+}
+

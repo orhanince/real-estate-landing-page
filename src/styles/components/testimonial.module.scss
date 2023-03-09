@@ -1,0 +1,44 @@
+@import "./../utils/mixins";
+@import "./../utils/settings";
+.testimonial {
+  width: 100%;
+  @include border-radius(0px);
+  margin: 10px 0px;
+  border: none !important;
+  background: $white !important;
+  font-family: $poppins-font;
+  border: 1px solid #DEDCDA !important;
+  height: 45vh;
+  position: relative;
+  &__img {
+    display: block !important;
+    width: 36px;
+    height: 36px;
+    background: red;
+    @include border-radius(20px);
+  };
+  &__title {
+    font-weight: 700 !important;
+    width: 100%;
+    max-width: 20vw;
+    overflow: hidden !important;
+  };
+  &__text {
+    color: $text-gray;
+    padding: 20px 0px;
+  }
+
+  &__person {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+  };
+  &__info {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 20px;
+  }
+
+}

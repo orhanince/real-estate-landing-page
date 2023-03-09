@@ -1,0 +1,13 @@
+@import "./../utils/settings";
+.header {
+  position: relative;
+  z-index: 10;
+  top: -20px;
+}
+
+.menuLink {
+  color: $white !important;
+  &:hover {
+    color: $primary-color !important;
+  };
+}
