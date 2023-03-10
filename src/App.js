@@ -7,6 +7,7 @@ import {
   Focus,
   Testimonials,
   Contact,
+  Footer,
 } from "./components";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Focus />
         <Testimonials />
         <Contact />
+        <Footer />
       </MainLayout>
     </ThemeProvider>
   );

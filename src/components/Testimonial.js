@@ -25,7 +25,9 @@ export const Testimonial = (props) => {
               alt={testimonial.name}
             />
             <div className={styles.testimonial__info}>
-              <span>{testimonial.name}</span>
+              <span>
+                <strong>{testimonial.name}</strong>
+              </span>
               <span>{testimonial.job}</span>
             </div>
           </div>
