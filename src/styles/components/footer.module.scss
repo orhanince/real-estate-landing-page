@@ -1,0 +1,33 @@
+@import "./../utils/settings";
+@import "./../utils/mixins";
+.footer {
+  background: $footer-bg-color;
+  padding: 60px 0px;
+  h4 {
+    color: $white;
+  }
+  &__company_info {
+    span {
+      display: block;
+      color: $gray-first-color;
+      vertical-align: middle;
+      padding: 10px 0px;
+    }
+    &__icon {
+      margin: -5px 5px 0px 0px;
+    };
+  };
+  .linkList {
+    padding-left: 0px;
+    li {
+      list-style: none;
+      flont: none !important;
+      a {
+        display: block;
+        text-decoration: none;
+        color: $gray-first-color;
+        padding: 8px 0px;
+      }
+    }
+  };
+}

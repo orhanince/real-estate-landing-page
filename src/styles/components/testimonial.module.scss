@@ -1,14 +1,15 @@
 @import "./../utils/mixins";
 @import "./../utils/settings";
 .testimonial {
+  display: block !important;
   width: 100%;
   @include border-radius(0px);
   margin: 10px 0px;
-  border: none !important;
   background: $white !important;
   font-family: $poppins-font;
   border: 1px solid #DEDCDA !important;
-  height: 45vh;
+  height: 45vh !important;
+  background: yellow;
   position: relative;
   &__img {
     display: block !important;
@@ -18,6 +19,7 @@
     @include border-radius(20px);
   };
   &__title {
+
     font-weight: 700 !important;
     width: 100%;
     max-width: 20vw;

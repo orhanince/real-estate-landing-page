@@ -13,6 +13,7 @@ import { Testimonials } from "./Testimonials";
 import { Testimonial } from "./Testimonial";
 import { Contact } from "./Contact";
 import { ContactForm } from "./ContactForm";
+import { Footer } from "./Footer";
 /**
  * Export all components.
  */
@@ -32,4 +33,5 @@ export {
   Testimonial,
   Contact,
   ContactForm,
+  Footer,
 };
