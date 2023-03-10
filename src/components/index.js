@@ -14,6 +14,7 @@ import { Testimonial } from "./Testimonial";
 import { Contact } from "./Contact";
 import { ContactForm } from "./ContactForm";
 import { Footer } from "./Footer";
+import { Search } from "./Search";
 /**
  * Export all components.
  */
@@ -34,4 +35,5 @@ export {
   Contact,
   ContactForm,
   Footer,
+  Search,
 };

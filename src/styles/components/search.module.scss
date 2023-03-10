@@ -1,0 +1,79 @@
+@import "./../utils/settings";
+@import "./../utils/mixins";
+.search {
+  display: block;
+  width: 100%;
+  max-width: 750px;
+  &__top {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 50px;
+    align-items: center;
+    &__choose {
+      display: flex;
+      width: 10%;
+      background: $light-bg-color;
+      height: inherit;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      &__active {
+        background: $white;
+      }
+    }
+  }
+  &__content {
+    display: flex;
+    width: inherit;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    background: $white;
+    height: 80px;
+    &__container {
+      display: flex;
+      background: $white;
+      width: inherit;
+      box-sizing: border-box;
+      justify-content: space-between;
+    }
+    &__input_group {
+      display: flex;
+      flex-direction: column;
+      margin: -5px 0px 0px 0px;
+      width: 20% !important;
+      label {
+        color: $secondary-color;
+      }
+    };
+    &__location {
+      border: none;
+      width: inherit;
+      height: 50px;
+      width: 100%;
+    }
+    &__type {
+      border: none;
+      display: block;
+      height: 50px;
+      width: 50%;
+    }
+    &__price {
+      border: none;
+      display: block;
+      height: 50px;
+      width: 80%;
+    }
+  }
+
+  &__button {
+    display: block;
+    background: $primary-color;
+    border: none;
+    width: 100%;
+    max-width: 25%;
+    height: 45px;
+    margin: -4px 0px 0px 0px;
+  }
+}
