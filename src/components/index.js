@@ -11,6 +11,8 @@ import { FocusItem } from "./FocusItem";
 import { SectionTitle } from "./SectionTitle";
 import { Testimonials } from "./Testimonials";
 import { Testimonial } from "./Testimonial";
+import { Contact } from "./Contact";
+import { ContactForm } from "./ContactForm";
 /**
  * Export all components.
  */
@@ -28,4 +30,6 @@ export {
   SectionTitle,
   Testimonials,
   Testimonial,
+  Contact,
+  ContactForm,
 };

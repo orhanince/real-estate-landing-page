@@ -1,0 +1,18 @@
+@import "./../utils/settings";
+@import "./../utils/mixins";
+.contactForm {
+  margin: 30px 0px;
+  .input {
+    @include border-radius(0px);
+    margin: 0px 0px 20px 0px;
+    border: 1px solid $black !important;
+  }
+}
+
+
+.submitButton {
+  display: block;
+  background: $primary-color !important;
+  color: $white !important;
+  padding: 10px !important;
+};

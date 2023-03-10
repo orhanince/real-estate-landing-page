@@ -1,6 +1,13 @@
 import { ThemeProvider } from "react-bootstrap";
 import { MainLayout } from "./layouts/MainLayout";
-import { Header, Hero, About, Focus, Testimonials } from "./components";
+import {
+  Header,
+  Hero,
+  About,
+  Focus,
+  Testimonials,
+  Contact,
+} from "./components";
 
 function App() {
   return (
@@ -11,6 +18,7 @@ function App() {
         <About />
         <Focus />
         <Testimonials />
+        <Contact />
       </MainLayout>
     </ThemeProvider>
   );
