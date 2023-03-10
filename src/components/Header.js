@@ -11,11 +11,32 @@ export const Header = () => {
   };
   return (
     <header className={styles.header}>
-      <Navbar className={"transparent"} expand="lg">
-        <Container fluid>
-          <Navbar.Brand href="#home">Logo</Navbar.Brand>
+      <Navbar
+        className={"transparent"}
+        expand="lg"
+        style={{
+          position: "relative",
+          top: 40,
+        }}
+      >
+        <Container>
+          <Navbar.Brand
+            href="#home"
+            style={{
+              color: COLORS.WHITE,
+            }}
+          >
+            Logo
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse
+            id="basic-navbar-nav"
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              position: "relative",
+            }}
+          >
             <Nav
               className="me-auto justify-content-end"
               style={{ width: "100%" }}
@@ -36,20 +57,28 @@ export const Header = () => {
                 Contract
               </Nav.Link>
             </Nav>
-            <AppButton
-              text={"Login"}
-              onClick={() => clickLogin()}
-              bg={COLORS.GREEN}
-              color={COLORS.WHITE}
-              variant={VARIANTS.OUTLINE}
-            />
-            <AppButton
-              text={"Register"}
-              onClick={() => clickRegister()}
-              bg={COLORS.WHITE}
-              color={COLORS.GREEN}
-              variant={VARIANTS.OUTLINE}
-            />
+            <span
+              style={{
+                marginRight: 10,
+              }}
+            >
+              <AppButton
+                text={"Login"}
+                onClick={() => clickLogin()}
+                bg={COLORS.GREEN}
+                color={COLORS.WHITE}
+                variant={VARIANTS.OUTLINE}
+              />
+            </span>
+            <span>
+              <AppButton
+                text={"Register"}
+                onClick={() => clickRegister()}
+                bg={COLORS.WHITE}
+                color={COLORS.GREEN}
+                variant={VARIANTS.OUTLINE}
+              />
+            </span>
           </Navbar.Collapse>
         </Container>
       </Navbar>
