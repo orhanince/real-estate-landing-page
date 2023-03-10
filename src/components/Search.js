@@ -1,5 +1,11 @@
 import { Button } from "react-bootstrap";
 import styles from "./../styles/components/search.module.scss";
+
+/**
+ * Search component
+ * @returns {JSX.Element}
+ * @constructor
+ */
 export const Search = () => {
   const searchHandler = () => {
     alert("search");

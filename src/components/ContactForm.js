@@ -2,6 +2,12 @@ import { useState } from "react";
 import { Button, Col, Form, Row } from "react-bootstrap";
 import styles from "./../styles/components/contact.form.module.scss";
 import { VARIANTS } from "../enums";
+
+/**
+ * Contact form
+ * @returns {JSX.Element}
+ * @constructor
+ */
 export const ContactForm = () => {
   const [name, setName] = useState("");
   const [lastName, setLastName] = useState("");

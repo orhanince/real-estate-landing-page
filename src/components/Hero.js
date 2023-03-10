@@ -1,6 +1,12 @@
 import styles from "./../styles/components/hero.module.scss";
 import { Container } from "react-bootstrap";
 import { Search } from "./index";
+
+/**
+ * Hero
+ * @returns {JSX.Element}
+ * @constructor
+ */
 export const Hero = () => {
   return (
     <section className={styles.hero}>

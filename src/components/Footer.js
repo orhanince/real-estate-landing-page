@@ -1,6 +1,12 @@
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "./../styles/components/footer.module.scss";
 import { HiLocationMarker, HiPhone, HiMail } from "react-icons/hi";
+
+/**
+ * Footer
+ * @returns {JSX.Element}
+ * @constructor
+ */
 export const Footer = () => {
   return (
     <footer className={styles.footer}>

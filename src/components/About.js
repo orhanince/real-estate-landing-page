@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { ExploreButton, ListingItem, SectionTitle } from "./../components";
 import styles from "./../styles/components/about.module.scss";
 import { COLORS, VARIANTS } from "../enums";
+// Define listings
 const listings = [
   {
     src: "/images/marten_house_image.jpg",
@@ -34,6 +35,11 @@ const listings = [
     areaDesc: "Living Area",
   },
 ];
+/**
+ * About
+ * @returns {JSX.Element}
+ * @constructor
+ */
 export const About = () => {
   const exploreButtonHandler = () => {
     alert("Explore Button Clicked!");

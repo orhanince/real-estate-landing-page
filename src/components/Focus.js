@@ -41,6 +41,11 @@ const focuses = [
       "Our homes have a unique range of designs, the houses are all in harmony with its surrounding from the moment the blueprints are drawn up.",
   },
 ];
+/**
+ * Focus
+ * @returns {JSX.Element}
+ * @constructor
+ */
 export const Focus = () => {
   const exploreButtonHandler = () => {
     window.location.href = "/explore";

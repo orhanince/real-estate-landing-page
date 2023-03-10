@@ -1,6 +1,5 @@
 import { AppButton } from "./AppButton";
 import { Header } from "./Header";
-import { Menu } from "./Menu";
 import { Hero } from "./Hero";
 import { About } from "./About";
 import { ExploreButton } from "./ExploreButton";
@@ -21,7 +20,6 @@ import { Search } from "./Search";
 export {
   AppButton,
   Header,
-  Menu,
   Hero,
   About,
   ExploreButton,

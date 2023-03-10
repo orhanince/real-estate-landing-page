@@ -1,6 +1,12 @@
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import { ContactForm } from "./index";
 import styles from "./../styles/components/contact.module.scss";
+
+/**
+ * Contact
+ * @returns {JSX.Element}
+ * @constructor
+ */
 export const Contact = () => {
   return (
     <section className={styles.contact}>

@@ -1,6 +1,13 @@
 import { Card, Image } from "react-bootstrap";
 import { BsQuote } from "react-icons/bs";
 import styles from "./../styles/components/testimonial.module.scss";
+
+/**
+ * Testimonial Component
+ * @param props
+ * @returns {JSX.Element}
+ * @constructor
+ */
 export const Testimonial = (props) => {
   const { testimonial } = props || {};
   return (

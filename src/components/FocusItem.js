@@ -1,5 +1,13 @@
 import { Card } from "react-bootstrap";
 import styles from "./../styles/components/focus.item.module.scss";
+import PropTypes from "prop-types";
+
+/**
+ * Focus Item Component
+ * @param props
+ * @returns {JSX.Element}
+ * @constructor
+ */
 export const FocusItem = (props) => {
   const { focus } = props || {};
   return (
@@ -11,4 +19,12 @@ export const FocusItem = (props) => {
       </Card.Body>
     </Card>
   );
+};
+
+/**
+ *  Define prop types of FocusItem component.
+ * @type {{props: Validator<NonNullable<object>>}}
+ */
+FocusItem.propTypes = {
+  props: PropTypes.object.isRequired,
 };

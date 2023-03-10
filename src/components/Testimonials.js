@@ -28,6 +28,11 @@ const testimonials = [
     img: "/images/testimonial_three.png",
   },
 ];
+/**
+ * Testimonials component
+ * @returns {JSX.Element}
+ * @constructor
+ */
 export const Testimonials = () => {
   const exploreButtonHandler = () => {
     window.location.href = "/explore";

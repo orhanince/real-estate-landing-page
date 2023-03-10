@@ -2,6 +2,12 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { AppButton } from "./AppButton";
 import { COLORS, VARIANTS } from "../enums";
 import styles from "./../styles/components/header.module.scss";
+
+/**
+ * Header
+ * @returns {JSX.Element}
+ * @constructor
+ */
 export const Header = () => {
   const clickLogin = () => {
     alert("Login!");
